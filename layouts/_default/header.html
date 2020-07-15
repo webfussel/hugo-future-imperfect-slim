@@ -9,6 +9,17 @@
     {{ with .Description }}
       <p>{{ . }}</p>
     {{ end }}
+    {{ with .Params.songurl}}
+    <a href="{{.}}">
+      {{ end }}
+
+      {{ with .Params.song }}
+      <span><i class="fas fa-headphones"></i> {{.}}</span>
+      {{ end }}
+
+      {{ with .Params.songurl}}
+    </a>
+    {{ end }}
   </div>
   <div class="meta">
     <time class="published" datetime="{{ .Date }}">
