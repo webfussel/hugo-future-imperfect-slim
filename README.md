@@ -1,3 +1,6 @@
+# Changes in this fork
+- Changes in layout/_default/header so you can link the currently heard song to spotify
+
 # Hugo Future Imperfect Slim
 
 **Hugo Future Imperfect** *Slim* is a theme based on [jpescador's](https://github.com/jpescador/)
